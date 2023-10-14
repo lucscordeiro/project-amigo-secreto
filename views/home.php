@@ -21,7 +21,7 @@
                             echo $data['email'];
                             ?>
 
-                            <form action="http://localhost/mvc/edit" method="post" style="display: inline;">
+                            <form action="http://localhost/project-amigo-secreto/edit" method="post" style="display: inline;">
                                 <input type="hidden" name="user_id" value="<?= $data['user_id'] ?>">
                                 <button type="submit" class="btn btn-primary">
                                     <i class="fas fa-pencil-alt"></i>
@@ -55,7 +55,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <form action="http://localhost/mvc/home/deleteUser" method="post" style="display: inline;">
+                <form action="http://localhost/project-amigo-secreto/home/deleteUser" method="post" style="display: inline;">
                     <input type="hidden" name="user_id" value="<?= $data['user_id'] ?>">
                     <button type="submit" class="btn btn-danger">Excluir</button>
                 </form>

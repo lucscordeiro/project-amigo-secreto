@@ -2,7 +2,7 @@
     <h2>Editar Usuário</h2>
     <?php foreach($this->dataUsers as $data){ ?>
 
-        <form action="http://localhost/mvc/edit/editDataUser" method="post">
+        <form action="http://localhost/project-amigo-secreto/edit/editDataUser" method="post">
 
             <input type="hidden" name="user_id" value='<?= $data["user_id"] ?>'>
             

@@ -22,7 +22,7 @@ class editController extends Controller{
         try{
 
             $usersModel->editUser($userId, $nameUser, $emailUser);
-            header('Location: http://localhost/mvc/home');
+            header('Location: http://localhost/project-amigo-secreto/home');
 
         } catch(Exception $e){
 

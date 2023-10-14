@@ -21,7 +21,7 @@ class registerController extends Controller
         try {
 
             $usersModel->addUsers($nome, $email);
-            header('Location: http://localhost/mvc/home');
+            header('Location: http://localhost/project-amigo-secreto/home');
         } catch (Exception $e) {
 
             $error = array('error' => 'Este e-mail já está cadastrado!');

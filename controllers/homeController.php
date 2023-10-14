@@ -22,7 +22,7 @@ class homeController extends Controller
         try {
 
             $usersModel->deleteUser($userId);
-            header('Location: http://localhost/mvc/home');
+            header('Location: http://localhost/project-amigo-secreto/home');
         } catch (Exception $e) {
 
             $error = array('error' => 'Algo deu errado :(');

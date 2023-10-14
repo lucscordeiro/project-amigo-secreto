@@ -1,6 +1,6 @@
 <div class="container mt-5">
     <h2>Inserir Nome e Email</h2>
-    <form action="http://localhost/mvc/register/saveAllDataUsers" method="post">
+    <form action="http://localhost/project-amigo-secreto/register/saveAllDataUsers" method="post">
         <div class="form-group">
             <label for="nome">Nome</label>
             <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome" required>

@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
-                <form action="http://localhost/mvc/search" method="post">
+                <form action="http://localhost/project-amigo-secreto/search" method="post">
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Buscar por nome ou email" name="search_user">
                         <div class="input-group-append">

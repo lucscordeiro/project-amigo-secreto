@@ -11,7 +11,7 @@
         </div>
       </div>
 
-      <a href=" http://localhost/mvc/home" class="btn btn-primary">Retornar</a>
+      <a href=" http://localhost/project-amigo-secreto/home" class="btn btn-primary">Retornar</a>
 
     </div>
   </div>
